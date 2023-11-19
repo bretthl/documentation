@@ -74,12 +74,12 @@ Now download the archive of the latest Nextcloud version:
   to its final destination. When you are running the Apache HTTP server you may
   safely install Nextcloud in your Apache document root::
 
-    sudo cp -r nextcloud /var/www
+    sudo cp -r nextcloud /var/www/html
 
 * Finally, change the ownership of your Nextcloud directories to your HTTP
   user::
 
-    sudo chown -R www-data:www-data /var/www/nextcloud
+    sudo chown -R www-data:www-data /var/www/html/nextcloud
 
 On other HTTP servers it is recommended to install Nextcloud outside of the
 document root.
