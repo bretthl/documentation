@@ -15,7 +15,7 @@ file and folder deletion. For migration purposes, this setting is installed
 initially set to "auto", which is equivalent to the default setting in
 Nextcloud.
 
-You may alter the default pattern in ``config.php``. The default setting is 
+You may alter the default pattern in ``config.php``. (****WHICH config.php?****) The default setting is 
 ``auto``, which sets the default pattern::
 
  'trashbin_retention_obligation' => 'auto',
